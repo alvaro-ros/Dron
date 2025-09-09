@@ -13,10 +13,11 @@ import numpy as np
 import traceback
 
 # --- Configuración ---
-CAMARA_TOPIC_ENTRADA = '/world/default/model/x500_mono_cam_0/link/camera_link/sensor/imager/image'
+CAMARA_TOPIC_ENTRADA = 'camera/image_raw'
 DEPTH_MAP_TOPIC_SALIDA = '/midas/depth_display' # Nombre del topic donde publicaremos el resultado
 
 MODEL_TYPE = "MiDaS_small"
+
 COLORMAP_SELECCIONADO = cv2.COLORMAP_INFERNO
 
 class MidasPublisherNode(Node):

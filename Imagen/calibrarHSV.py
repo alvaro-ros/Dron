@@ -5,7 +5,7 @@ def nada(x):
     # Función vacía para los trackbars, ya que getTrackbarPos() se encarga
     pass
 
-ruta_imagen = 'imagen.png' # Asegúrate de que esta imagen exista en la misma carpeta
+ruta_imagen = 'imagen3.png' # Asegúrate de que esta imagen exista en la misma carpeta
 ancho_ventana = 640
 
 imagen_bgr_original = cv2.imread(ruta_imagen)
